@@ -24,11 +24,11 @@ Debemos considerar que:
 
 - Cada celda puede contener un total de 32,767 caracteres.
 
-- EL número de campos en un formulario es de 32.
+- El número de campos en un formulario es de 32.
 
-También es importante mencionar que Excel no posee integridad referencial, es decir que podemos encontrar datos duplicados dentro del mismo libro en diferentes hojas. 
+También es importante mencionar que Excel no poseé integridad referencial, es decir que podemos encontrar datos duplicados dentro del mismo libro, en diferentes hojas. 
 
-Excel nos da la ventaja si estamos manejando pequeños volúmenes de datos, permite recolectar datos, filtrarlos, hacer búsquedas rápidas y aplicar operaciones .
+Excel nos da la ventaja si estamos manejando pequeños volúmenes de datos, permite recolectar datos, filtrarlos, hacer búsquedas rápidas y aplicar operaciones.
 
  - Fórmulas versátiles
 
@@ -36,9 +36,9 @@ Excel nos da la ventaja si estamos manejando pequeños volúmenes de datos, perm
 
  - Fucionalidades de gráficos, lo que nos permite visualizar nuestra información de forma sencilla y más fácil de explicar. 
 
-También econtraremos Sistema Gestore de Bases de datos (Database Management Systems  por sus siglas en inlgés), más completos y también más complejos, aquí una pequeña lista de los más usados:
+También econtraremos Sistema Gestores de Bases de datos (Database Management Systems  por sus siglas en inglés), más completos y también más complejos, aquí una pequeña lista de los más usados:
 
-<a href="https://dev.mysql.com/doc/" target="blank"><img src="MySQL-Logo.png" height="40" width="40" /></a>
+<a href="https://dev.mysql.com/doc/" target="blank"><img src="MySQL-Logo.png" height="40" width="40" /></a> 
 
 **MySQL**
 
@@ -48,4 +48,6 @@ Este software es un es un Sistema Gestor de Bases de Datos relacionales, el de c
 
 **PostgreSQL**
 
-PostgresSQL o solo Postgres es un sistema de de bases de datos de modelo objeto-rlacional
+PostgresSQL o solo Postgres es un sistema de de bases de datos de modelo objeto-relacional. Es un sistema muy estable.
+
+Dale click en los íconos para ver la documentación.
