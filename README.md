@@ -28,4 +28,10 @@ Debemos considerar que:
 
 También es importante mencionar que Excel no posee integridad referencial, es decir que podemos encontrar datos duplicados dentro del mismo libro en diferentes hojas. 
 
-*En construcción*
+Excel nos da la ventaja si estamos manejando pequeños volúmenes de datos, permite recolectar datos, filtrarlos, hacer búsquedas rápidas y aplicar operaciones .
+
+ - Fórmulas versátiles
+
+ - Funciones aplicables a subconjuntos de datos seleccionados.
+
+ - Fucionalidades de gráficos, lo que nos permite visualizar nuestra información de forma sencilla y más fácil de explicar. 
