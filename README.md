@@ -6,7 +6,7 @@ Una base de datos es una herramienta que permite almacenar datos de forma estruc
 
 Cuando hablamos de bases de datos, vamos a hablar de entidades que nosotros creamos y diseñamos para resolver problemas de todo tipo: tu presupuesto personal, el registro de nóminas en un trabajo, la biblioteca pública, la agenda telefónica, etc. Si te fijas bien encontramos bases de datos en todas partes. 
 
-Al ponernos manos a la obra y crear una Base de Datos, es muy importante que entendamos cabalmente el problema, de manera que aseguremos el diseño de la base de datos será el correcto para optimizar o solucionar cualquier problema que se requiera. 
+Al ponernos manos a la obra y crear una Base de Datos, es muy importante que entendamos cabalmente el problema, de manera que aseguremos que el diseño de la base de datos será el correcto para optimizar o solucionar cualquier problema que se requiera. 
 
 ### **SOFTWARE**
 
@@ -35,3 +35,17 @@ Excel nos da la ventaja si estamos manejando pequeños volúmenes de datos, perm
  - Funciones aplicables a subconjuntos de datos seleccionados.
 
  - Fucionalidades de gráficos, lo que nos permite visualizar nuestra información de forma sencilla y más fácil de explicar. 
+
+También econtraremos Sistema Gestore de Bases de datos (Database Management Systems  por sus siglas en inlgés), más completos y también más complejos, aquí una pequeña lista de los más usados:
+
+<a href="https://dev.mysql.com/doc/" target="blank"><img src="MySQL-Logo.png" height="40" width="40" /></a>
+
+**MySQL**
+
+Este software es un es un Sistema Gestor de Bases de Datos relacionales, el de cópdigo abierto que nos permite almacenar, gestionar, y recuperar datos estructurados de manera eficiente. Se usar en proyectos de pequeña y gran escala.
+
+<a href="https://www.postgresql.org/docs/" target="blank"><img src="Postgresql-Logo.png" height="40" width="40" /></a>
+
+**PostgreSQL**
+
+PostgresSQL o solo Postgres es un sistema de de bases de datos de modelo objeto-rlacional
