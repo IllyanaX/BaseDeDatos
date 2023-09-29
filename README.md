@@ -50,7 +50,7 @@ Este software es un es un Sistema Gestor de Bases de Datos relacionales, el de c
 
 PostgresSQL o solo Postgres es un sistema de de bases de datos de modelo objeto-relacional. Es un sistema muy estable, con 20 años de colaboración en su desarrollo, lo que contribuye directamente a su resitencia, integridad y exactitud.
 
-<a href="https://docs.oracle.com/en/database/oracle/oracle-database/" target="blank"><img src="Oracle-Logo.png"/></a>
+<a href="https://docs.oracle.com/en/database/oracle/oracle-database/" target="blank"><img src="Oracle-logo.png"/></a>
 
 Oracle puede trabajar con lenguajes PL/SQL y SQL para escribir consultas (queries) para acceder a los datos que se encuentra alojados en su base de datos. 
 
