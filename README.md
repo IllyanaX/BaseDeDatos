@@ -6,7 +6,7 @@ Una base de datos es una herramienta que permite almacenar datos de forma estruc
 
 Cuando hablamos de bases de datos, vamos a hablar de entidades que nosotros creamos y diseñamos para resolver problemas de todo tipo: tu presupuesto personal, el registro de nóminas en un trabajo, la biblioteca pública, la agenda telefónica, etc. Si te fijas bien encontramos bases de datos en todas partes. 
 
-Al ponernos manos a la obra y crear una Base de Datos, es muy importante que entendamos cabalmente el problema, de manera que aseguremos que el diseño de la base de datos será el correcto para optimizar o solucionar cualquier problema que se requiera. 
+Al ponernos manos a la obra y crear una base de datos, es muy importante que entendamos cabalmente el problema, de manera que aseguremos que el diseño de la base de datos será el más óptimo para solucionar cualquier problema que se nos ponga en el camino. 
 
 ### **SOFTWARE**
 
@@ -48,6 +48,10 @@ Este software es un es un Sistema Gestor de Bases de Datos relacionales, el de c
 
 **PostgreSQL**
 
-PostgresSQL o solo Postgres es un sistema de de bases de datos de modelo objeto-relacional. Es un sistema muy estable.
+PostgresSQL o solo Postgres es un sistema de de bases de datos de modelo objeto-relacional. Es un sistema muy estable, con 20 años de colaboración en su desarrollo, lo que contribuye directamente a su resitencia, integridad y exactitud.
+
+<a href="https://docs.oracle.com/en/database/oracle/oracle-database/" target="blank"><img src="Oracle-Logo.png"/></a>
+
+Oracle puede trabajar con lenguajes PL/SQL y SQL para escribir consultas (queries) para acceder a los datos que se encuentra alojados en su base de datos. 
 
 Dale click en los íconos para ver la documentación.
