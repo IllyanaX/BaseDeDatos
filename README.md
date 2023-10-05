@@ -114,3 +114,25 @@ Algunos de estos operadores son:
 NOT IN (...)| Valor que no existe en una lista| nombre_columna NOT IN (22, 17, 303)|
 | LIKE | Comparación exacta de cadenas (case sensitive)| columna_nombre LIKE "Maria"|
 |NOT LIKE| Comparación exacta de cadenas diferentes (case senstive)| colmna_nombre NOT LIKE "gmail"|
+
+No debemos olvidar que para que el analizador de queries pueda distinguir que estamos hablando de una cadena debemos usar comillas ``` "..." ```
+
+[Apache Lucene](https://lucene.apache.org/) or [Sphinx](https://sphinxsearch.com/) son implemenmtaciones para bases de datos que se especializan en busquedas del tipo full-text
+
+## Filtrar y ordenar datos en una consulta
+
+En el álgebra relacional veremos que las relaciones excluyen valores repetidos, sin embargo en SQL tenemos que darle instrucciones para filtrar elementos este tipo de elementos usando la palabra reservada ``` DISTINCT ```. 
+
+```
+SELECT DISTINCT columna, otra_columna, ... FROM mi_tabla WHERE condicion(es);
+```
+
+>NOTA: Considera que la instrucción ```DISTINCT``` remueve indiscriminadamente todos las columnas duplicadas
+
+Para ordenar los datos dentro de una tabla tenemos otra claúsula:  ```ORDER BY```, esto nos permitirá ordenar los valores en orden acendente o decendente. 
+
+```
+SELECT columna, otra_columna, … FROM mi_tabla WHERE condicion(es) ORDER BY columna ASC/DESC;
+```
+
+Cuando ordenamos los datos de 
