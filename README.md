@@ -127,12 +127,20 @@ En el álgebra relacional veremos que las relaciones excluyen valores repetidos,
 SELECT DISTINCT columna, otra_columna, ... FROM mi_tabla WHERE condicion(es);
 ```
 
->NOTA: Considera que la instrucción ```DISTINCT``` remueve indiscriminadamente todos las columnas duplicadas
+>NOTA: Considera que la instrucción ```DISTINCT``` remueve indiscriminadamente todos las columnas duplicadas.
 
-Para ordenar los datos dentro de una tabla tenemos otra claúsula:  ```ORDER BY```, esto nos permitirá ordenar los valores en orden acendente o decendente. 
+Para ordenar los datos dentro de una tabla tenemos otra claúsula:  ```ORDER BY```, que permitirá ordenar los valores de manera acendente o decendente. 
 
 ```
 SELECT columna, otra_columna, … FROM mi_tabla WHERE condicion(es) ORDER BY columna ASC/DESC;
 ```
 
-Cuando ordenamos los datos de 
+Cuando ordenamos los datos de también podemos acotar el número de columnas con ```LIMIT``` y especificar donde empezar a contar el número de columnas con ```OFFSET```:
+
+```
+SELECT columna, otra_columna, …
+FROM mi_tabla
+WHERE condicion(es)
+ORDER BY columna ASC/DESC
+LIMIT num_limite OFFSET num_compensacion;
+```
