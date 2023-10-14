@@ -76,7 +76,7 @@ Las bases de datos relacionales cuentan con:
 
 - **Instancias (instances)**: son todos aquellos elementos que conforman al contenido en un tiempo determinado. 
 
-- **Llaves (Keys)**: Keys es un tipo de atributo especial porque su valor es único dentro de la tupla, son idetificadores, es importante aclarar que una llave puede ser una combinación de atributos. 
+- **Claves (Keys)**: Keys es un tipo de atributo especial porque su valor es único dentro de la tupla, son idetificadores, es importante aclarar que una clave puede ser una combinación de atributos. 
 
 En SQL podemos pensar que una tabla es un tipo de entidad, y que cada columna es una instancia específica del tipo de entidad.
 
@@ -143,4 +143,35 @@ FROM mi_tabla
 WHERE condicion(es)
 ORDER BY columna ASC/DESC
 LIMIT num_limite OFFSET num_compensacion;
+```
+
+# Consultas  en multi-tablas por medio de uniones (JOINs)
+
+Cuando trabajemos con datos en el mundo real normalmente utilizaremos más de una tabla. Por eso es importante que sepamos manejar multiples tablas ortogonales al mismo tiempo con un proceso al que llamaremos *normalización*.
+
+Ahora, los sistemas ortogonales vienen a la programación desde las matemáticas puras, particularmente de la geometría y el álgebra, y decimos que dos lineas son ortogonales cuando se encuentran en un ángulo de 90° y hablando de álgebra es cuando dos vectores son independientes entre sí.
+
+<img src="images/Ortogonalidad.png"/> 
+
+Ahora, en programación que dos elementos seaorotogonales dentro de un sistema implica que serán independientes entre sí.
+
+Dentro de las bases de datos la ortogonalidad nos permitirá ordenar los datos a través de la normalización.La idea es establecer reglas para que la base de datos sea más flexible, más segura y eliminar redundancia y dependencias incoherentes.
+
+Por ello es importante que aprendamos como funcionan las consultas cuando usamos múltiples tablas. 
+
+### JOINs
+
+Cuando varias tablas comparten información entre ellas, es necesario tener una *clave principal* (primary key) que identifique de manera inequívoca a cada entidad de la base de datos. Normalmente se utilizan enteros de forma incremental, pero las claves principales pueden ser cadenas, hash values, lo único que importa es que sean únicas.
+Utilizaremos la palabra reservada ```JOIN``` para combinar los datos de una columan  a través de tablas separas usando la clave única de cada una de las tablas.
+
+- ```INNER JOIN``` Se trata de un procedimiento que posibilita la unión de registros de dos tablas en caso de que compartan valores en un campo común.
+
+```
+SELECT columna, otra_columna, ...
+FROM mi_tabla
+INNER JOIN otra_tabla
+    ON mi_tabla.id = otra_tabla.id
+WHERE condicion(es)
+ORDER BT columna, ... ASC/DESC
+LIMIT limite_superior OFFSET limite_inferior;
 ```
